@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import {Navbar} from 'reactstrap';
 import './App.css';
 import NavbarBrand from "reactstrap/es/NavbarBrand";
+import Menu from './components/MenuComponent';
 
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
           <NavbarBrand href=""> Ristorante Con Fusion</NavbarBrand>
         </div>
       </Navbar>
+        <Menu />
     </div>
   );
 }
